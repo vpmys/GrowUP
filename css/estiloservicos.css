@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+html, body{
+    height: 100%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0%;  
+}
+
+div.geral{
+    min-height:100%;
+    position:relative;
+    width:100%; 
+}
+/* HEADER */
+
+header{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+header div.container{
+    background-color: #00796B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div.container div.logo{
+    display: flex;
+    align-items: center;
+    width: 199px;
+    height: 83px;
+    padding-left: 41px;
+}
+
+header div.container div.paginas{
+    display: flex;
+    margin-right: 20px;
+}
+
+header div.container div.paginas nav a{
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    padding-right: 28px;
+    letter-spacing: 0.5px;
+    background: none;
+    color: #FFFFFF;
+}
+ /* CONTEÚDO */
+section.sobre{
+    display: flex;
+    justify-content: center;
+}
+
+section.sobre div.container{
+    position: relative;
+    width: 1136px;
+    height: 538px;
+    display: flex;
+    justify-content:space-between;
+}
+
+section.sobre div.container div.imagem{
+    width: 575px;
+    height: 410px;
+    margin-top: 90px;
+}
+
+section.sobre div.container h1{
+    color:#00796B;
+    font-weight: 900;
+    font-size: 55px;
+    letter-spacing: 0.5px;
+}
+
+section.sobre div.container div.texto article{
+    width: 602px;
+    height: 100%;
+    display: inline-block;
+}
+
+section.sobre div.container div.texto h2{
+    color: #00796B;
+    font-weight: 900;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+}
+
+section.sobre div.container div.texto div.lista{
+    justify-content: column;
+}
+
+section.sobre div.container div.texto article,
+section.sobre div.container div.texto ol li{
+    color: #9B9B9B;
+    font-size: 19px;
+    letter-spacing: 0.5px;
+}
+
+section.sobre div.container div.texto ol{
+    padding-left: 23px;
+}
+
+/*  VÍDEO */
+section.video {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center ;
+}
+
+section.video iframe{
+    width: 600px;
+    height: 300px;
+    margin: 150px 0;
+}
+
+section.pilares{
+    padding-bottom: 300px;  
+}
+section.pilares{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 400px;
+}
+
+section.pilares div.container div{
+    width: 1000px;
+    height: auto;
+    text-align: center;
+}
+
+section.pilares div.container div h2{
+    color:#00796B;
+    font-size: 35px;  
+}
+
+section.pilares div.container div article{
+    color:#9B9B9B;
+    font-size: 25px;
+}
+
+footer{
+    background-color: #C4C4C4;
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom:0;
+    width:100%;
+    height: 94px;
+}
+
+footer div.copyright{
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+}
