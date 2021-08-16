@@ -30,10 +30,13 @@ header div.container{
     max-width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 header div.container div.logo{
     margin-left: 41px;
+    display: flex;
+    align-items: center;
 }
 
 header div.container div.paginas{
@@ -74,7 +77,6 @@ main div.container{
 
 main div.container div.imagem{
     width: 770px;
-    height: 443px;
     display: flex;
 }
 
@@ -113,4 +115,69 @@ footer div.copyright{
     font-size: 25px;
     color: #FFFFFF;
     letter-spacing: 0.5px;
+}
+
+@media (max-width: 770px){
+    main div.container{
+        width: 100%;
+    }
+    main div.container div.imagem img{
+        width: 100%;
+    }
+
+    main div.container div.imagem img{
+        width: 100%;
+    }
+}
+@media (max-width: 480px){
+    header{
+        padding: 15px 0px;  
+    }
+    header div.container div.logo{
+        margin-left: 0px;
+        margin-left: 15px;
+    }
+
+    header div.container div.logo img{
+        width: 120px;
+    }
+
+    header div.container div.paginas nav{
+        margin-right: 0px;
+    }
+
+    header div.container div.paginas nav{
+        display: flex;
+        flex-direction: column;
+        margin-right: 15px;
+    }
+
+    header div.container div.paginas nav a{
+        font-size: 12px;
+        padding-left: 0px;
+        line-height:  18px;
+    }
+
+    main div.container{
+        width: 100%;
+    }
+    main div.container div.imagem{
+        width: 100%;
+        
+    }
+
+    main div.container div.imagem img{
+        width: 100%;
+    }
+
+    main div.container div.texto{
+        width: 100%;
+    }
+    main div.container div.texto h1{
+        font-size: 25px;
+    }
+    main div.container div.texto article{
+        width:100%;
+        font-size: 13px;
+    }
 }
