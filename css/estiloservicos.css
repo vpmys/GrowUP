@@ -228,4 +228,12 @@ footer div.copyright{
         padding-left: 0px;
         line-height:  18px;
     }
+
+    footer{
+        height: 54px;
+    }
+    
+    footer div.copyright{
+        font-size: 15px;
+    }
 }
